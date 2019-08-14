@@ -1,0 +1,7 @@
+version: '2'
+services:
+  cjpeg:
+    build: 
+      context: .
+    volumes:
+      - '$PWD/build:/go/build'
